@@ -1,0 +1,26 @@
+/* Explain: Theme design tokens (colors, fonts) — single source of truth. */
+:root {
+    --primary-color: #1556a6;
+    --primary-hover: #0d3d7a;
+    --secondary-color: #c87912;
+    --accent-color: #e19a20;
+    --gold-soft: #ffe0a0;
+    --gold-gradient: linear-gradient(135deg, #f3b33d 0%, #e19a20 55%, #c87912 100%);
+    --navy-gradient: linear-gradient(160deg, #10386e 0%, #1556a6 60%, #0b2d59 100%);
+    --background-color: #ffffff;
+    --surface-color: #f3f7fc;
+    --dark-color: #0b2345;
+    --text-color: #17283e;
+    --text-muted: #5a6b80;
+    --text-on-dark: #eef2f9;
+    --text-on-dark-muted: #b6c2d8;
+    --border-color: #dce5f0;
+    --font-heading: 'Playfair Display', Georgia, 'Times New Roman', serif;
+    --font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+    --radius-sm: 10px;
+    --radius: 16px;
+    --radius-lg: 24px;
+    --shadow-soft: 0 12px 34px rgba(16, 56, 110, 0.09);
+    --shadow-hover: 0 22px 50px rgba(16, 56, 110, 0.17);
+    --container: 74rem;
+}

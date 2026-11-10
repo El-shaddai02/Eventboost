@@ -1,0 +1,52 @@
+/* Explain: Base reset and typography defaults. */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    background: var(--background-color);
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    line-height: 1.65;
+    color: var(--text-color);
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--font-heading);
+    line-height: 1.15;
+    color: var(--primary-color);
+    margin: 0;
+}
+
+p { margin: 0; }
+
+img,
+video {
+    max-width: 100%;
+    display: block;
+}
+
+a { color: inherit; }
+
+:focus-visible {
+    outline: 3px solid var(--accent-color);
+    outline-offset: 2px;
+    border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.001ms !important;
+        transition-duration: 0.001ms !important;
+    }
+}
